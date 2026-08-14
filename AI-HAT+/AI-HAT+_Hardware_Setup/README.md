@@ -1,4 +1,4 @@
-Introduction
+# Introduction
 
 The Raspberry Pi AI HAT+ is an official Raspberry Pi add-on board designed to provide hardware-accelerated Artificial Intelligence (AI) inference on the Raspberry Pi 5. It contains a Hailo Neural Processing Unit (NPU) that executes supported AI models directly on dedicated AI hardware instead of relying solely on the Raspberry Pi CPU.
 
@@ -18,49 +18,26 @@ The Raspberry Pi AI HAT+ integrates seamlessly with Raspberry Pi camera framewor
 
 
 
-AI HAT+ vs AI HAT+ 2
+## AI HAT+ vs AI HAT+ 2
 
-Feature
+|Feature |AI HAT+ |AI HAT+ 2
+|--------|--------|------------
+Accelerator Chip|Hailo-8L (13 TOPS) or Hailo-8 (26 TOPS)|Hailo-10H (40 TOPS)
 
-AI HAT+
+Memory|Uses Raspberry Pi 5 system memory|Dedicated 8 GB onboard memory
 
-AI HAT+ 2
+LLM Support|Not supported|Supported
 
-Accelerator Chip
+VLM Support|Not supported|Supported
 
-Hailo-8L (13 TOPS) or Hailo-8 (26 TOPS)
+Typical Applications|Object detection, robotics, computer vision, camera AI|All AI HAT+ applications plus local LLMs and Vision-Language Models
 
-Hailo-10H (40 TOPS)
-
-Memory
-
-Uses Raspberry Pi 5 system memory
-
-Dedicated 8 GB onboard memory
-
-LLM Support
-
-Not supported
-
-Supported
-
-VLM Support
-
-Not supported
-
-Supported
-
-Typical Applications
-
-Object detection, robotics, computer vision, camera AI
-
-All AI HAT+ applications plus local LLMs and Vision-Language Models
 
 The AI HAT+ is primarily intended for computer vision and robotics applications, while the AI HAT+ 2 extends these capabilities by supporting compact Large Language Models (LLMs) and Vision-Language Models (VLMs).
 
 
 
-Prerequisites
+## Prerequisites
 
 Before installing the AI HAT+, ensure that the following hardware has already been assembled:
 
@@ -78,9 +55,9 @@ Important: Completely power off the Raspberry Pi and disconnect the power supply
 
 
 
-HARDWARE INSTALLATION
+#HARDWARE INSTALLATION
 
-Step 1: Unbox the Raspberry Pi AI HAT+
+##Step 1: Unbox the Raspberry Pi AI HAT+
 
 
 
@@ -114,7 +91,7 @@ Figure 1c: AI HAT+ package contents.
 
 
 
-Step 2: Inspect the AI HAT+
+##Step 2: Inspect the AI HAT+
 
 Before installation, identify the major components of the board.
 
@@ -134,7 +111,7 @@ The PCIe ribbon cable is delicate and should be handled carefully. Avoid excessi
 
 Figure 2: AI HAT+ board showing major components.
 
-Step 3: Identify the Mounting Hardware
+##Step 3: Identify the Mounting Hardware
 
 The installation kit contains two different screw lengths.
 
@@ -148,7 +125,7 @@ Separating the screws before beginning the installation makes the assembly proce
 
  Figure 3: Long and short screws, spacers, and GPIO header.
 
-Step 4: Install the GPIO Header
+##Step 4: Install the GPIO Header
 
 Insert the supplied 40-pin male GPIO header into the AI HAT+.
 
@@ -160,7 +137,7 @@ Ensure the header is fully inserted and aligned correctly.
 
 Figure 4: Installing the GPIO header.
 
-Step 5: Connect the PCIe Ribbon Cable
+##Step 5: Connect the PCIe Ribbon Cable
 
 Carefully connect the PCIe ribbon cable between the Raspberry Pi 5 PCIe connector and the connector on the AI HAT+.
 
@@ -180,7 +157,7 @@ Improper insertion or excessive force may damage the connector or prevent the AI
 
 Figure 5: Connecting the PCIe ribbon cable.
 
-Step 6: Mount the AI HAT+
+##Step 6: Mount the AI HAT+
 
 Position the AI HAT+ directly above the Raspberry Pi.
 
@@ -200,7 +177,7 @@ Important: Do not force the board into position. Misaligned GPIO pins can bend e
 
  Figure 6: Positioning the AI HAT+.
 
-Step 7: Secure the AI HAT+
+##Step 7: Secure the AI HAT+
 
 Using the short screws, fasten the AI HAT+ to the metal standoffs.
 
@@ -220,7 +197,7 @@ No pins are bent.
 
 
 
-Hardware Installation Complete 
+###Hardware Installation Complete 
 
 Congratulations! The Raspberry Pi AI HAT+ hardware installation is now complete.
 
@@ -247,7 +224,7 @@ Ensure the Raspberry Pi was powered off during installation.
 Many hardware detection issues are caused by loose or improperly aligned connections rather than software configuration.
 
 
-Documentation
+####Documentation
 
 For additional information, detailed images, and a more visual walkthrough of the Raspberry Pi AI HAT+ hardware setup, visit the accompanying blog post on Substack:
 
