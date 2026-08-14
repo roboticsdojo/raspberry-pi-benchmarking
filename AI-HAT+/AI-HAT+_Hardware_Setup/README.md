@@ -22,16 +22,15 @@ The Raspberry Pi AI HAT+ integrates seamlessly with Raspberry Pi camera framewor
 
 |Feature |AI HAT+ |AI HAT+ 2|
 |--------|--------|------------|
-|Accelerator Chip|Hailo-8L (13 TOPS) or Hailo-8 (26 TOPS)|Hailo-10H (40 TOPS)|
+|Accelerator Chip|Hailo-8L (13 TOPS) or Hailo-8 (26 TOPS)|Hailo-10H>
 
-|Memory|Uses Raspberry Pi 5 system memory|Dedicated 8 GB onboard memory|
+|Memory|Uses Raspberry Pi 5 system memory|Dedicated 8 GB onboard me>
 
 |LLM Support|Not supported|Supported|
 
 |VLM Support|Not supported|Supported|
 
-|Typical Applications|Object detection, robotics, computer vision, camera AI|All AI HAT+ applications plus local LLMs and Vision-Language Models|
-
+|Typical Applications|Object detection, robotics, computer vision, >|
 
 
 The AI HAT+ is primarily intended for computer vision and robotics applications, while the AI HAT+ 2 extends these capabilities by supporting compact Large Language Models (LLMs) and Vision-Language Models (VLMs).
