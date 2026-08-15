@@ -403,7 +403,8 @@ hailo-post-install
 
 Figure 3.7.1: Re-running hailo-post-install
 
-
+## Setup screenshots are available in:
+https://github.com/roboticsdojo/raspberry-pi-benchmarking/tree/feature/RDI-83-add-AI-HAT-software-setup/AI-HAT%2B/AI-HAT%2B_Software__Setup/Software_setup_images
 
 
 
