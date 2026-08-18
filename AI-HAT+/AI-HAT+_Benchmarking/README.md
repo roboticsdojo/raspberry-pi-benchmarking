@@ -147,3 +147,6 @@ These results indicate the Raspberry Pi 5 + Hailo-8L AI HAT+ combination is a pr
 - Expand the dataset to 100+ curated, detector-specific images.
 - Reduce timeout rate by aligning test images with the trained detection classes.
 - Compare against Hailo-8 (non-L) and Hailo-10H for cross-accelerator benchmarking.
+
+## Benchmarking screenshots are available in:
+- https://github.com/roboticsdojo/raspberry-pi-benchmarking/tree/feature/RDI-83-add-AI-HAT%2B_Benchamrking/AI-HAT%2B/AI-HAT%2B_Benchmarking/Benchmarking_setup_images
