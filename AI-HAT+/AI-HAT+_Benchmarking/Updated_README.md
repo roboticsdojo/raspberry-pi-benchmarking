@@ -752,7 +752,8 @@ The Hailo-8L's ~25 ms latency and ~40 FPS, by contrast, comfortably clears the r
 ## Graphs
 
 All benchmark graphs are available in the [`Benchmaking_Graphs`](./Benchmaking_Graphs) folder.
-
+Link: [https://github.com/roboticsdojo/raspberry-pi-benchmarking/tree/feature/RDI-173-add-updated-AI-HAT-benchmark-results/AI-HAT%2B/AI-HAT%2B_Benchmarking/Benchmaking_Graphs
+]
 ## Blog Post
 
 The complete benchmark setup, results, and analysis are documented in the [Raspberry Pi 5 AI Benchmark: Hailo-8L vs CPU-Only YOLO Inference](https://roboticsdojo.substack.com/p/335fe47d-dfba-40dd-a3f0-eaa2520f5638?postPreview=free&updated=2026-08-23T21%3A38%3A45.093Z&audience=everyone&free_preview=false&freemail=true).
