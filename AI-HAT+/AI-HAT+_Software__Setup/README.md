@@ -406,6 +406,11 @@ Figure 3.7.1: Re-running hailo-post-install
 ## Setup screenshots are available in:
 https://github.com/roboticsdojo/raspberry-pi-benchmarking/tree/feature/RDI-83-add-AI-HAT-software-setup/AI-HAT%2B/AI-HAT%2B_Software__Setup/Software_setup_images
 
+## AI HAT+ Setup Guide
+
+For the complete **AI HAT+ on Ubuntu 24.04: Setup, Installation & Verification Guide**, see the blog post below:
+
+[AI HAT+ on Ubuntu 24.04: Setup, Installation & Verification Guide](https://roboticsdojo.substack.com/p/44ea19d8-9ccb-4322-8604-2927f9ce4d36?postPreview=free&updated=2026-08-23T20%3A43%3A55.319Z&audience=everyone&free_preview=false&freemail=true)
 
 
 
