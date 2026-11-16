@@ -1,0 +1,13 @@
+[submodule "third_party/ros2-performance"]
+	path = third_party/ros2-performance
+	url = https://github.com/irobot-ros/ros2-performance.git
+[submodule "third_party/benchmarks"]
+	path = third_party/benchmarks
+	url = https://github.com/robotperf/benchmarks.git
+[submodule "third_party/ros2_benchmark"]
+	path = third_party/ros2_benchmark
+	url = https://github.com/robotperf/ros2_benchmark.git
+[submodule "third_party/image_pipeline"]
+	path = third_party/image_pipeline
+	url = https://github.com/ros-perception/image_pipeline.git
+	branch = jazzy

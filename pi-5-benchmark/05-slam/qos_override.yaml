@@ -1,0 +1,6 @@
+# Ensures slam_toolbox receives the latched /tf_static transform during bag playback.
+/tf_static:
+  durability: transient_local
+  reliability: reliable
+  history: keep_last
+  depth: 10

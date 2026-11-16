@@ -1,0 +1,5 @@
+# Keep LF endings so shell scripts run on the Pi even if committed from Windows.
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.patch text eol=lf
