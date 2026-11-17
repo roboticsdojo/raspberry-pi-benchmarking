@@ -1,0 +1,85 @@
+{
+  "resources": [],
+  "nodes": [
+    {
+      "node_name": "pub_1",
+      "publishers": [
+        {
+          "topic_name": "t1",
+          "msg_type": "stamped_vector",
+          "msg_size": 10240,
+          "freq_hz": 20
+        }
+      ]
+    },
+    {
+      "node_name": "pub_2",
+      "publishers": [
+        {
+          "topic_name": "t2",
+          "msg_type": "stamped_vector",
+          "msg_size": 10240,
+          "freq_hz": 20
+        }
+      ]
+    },
+    {
+      "node_name": "pub_3",
+      "publishers": [
+        {
+          "topic_name": "t3",
+          "msg_type": "stamped_vector",
+          "msg_size": 10240,
+          "freq_hz": 20
+        }
+      ]
+    },
+    {
+      "node_name": "pub_4",
+      "publishers": [
+        {
+          "topic_name": "t4",
+          "msg_type": "stamped_vector",
+          "msg_size": 10240,
+          "freq_hz": 20
+        }
+      ]
+    },
+    {
+      "node_name": "pub_5",
+      "publishers": [
+        {
+          "topic_name": "t5",
+          "msg_type": "stamped_vector",
+          "msg_size": 10240,
+          "freq_hz": 20
+        }
+      ]
+    },
+    {
+      "node_name": "master_controller_node",
+      "subscribers": [
+        {
+          "topic_name": "t1",
+          "msg_type": "stamped_vector"
+        },
+        {
+          "topic_name": "t2",
+          "msg_type": "stamped_vector"
+        },
+        {
+          "topic_name": "t3",
+          "msg_type": "stamped_vector"
+        },
+        {
+          "topic_name": "t4",
+          "msg_type": "stamped_vector"
+        },
+        {
+          "topic_name": "t5",
+          "msg_type": "stamped_vector"
+        }
+      ]
+    }
+  ]
+}

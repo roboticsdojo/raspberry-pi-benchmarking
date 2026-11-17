@@ -1,0 +1,43 @@
+{
+  "resources": [],
+  "nodes": [
+    {
+      "node_name": "master_publisher_node",
+      "publishers": [
+        {
+          "topic_name": "large_data",
+          "msg_type": "stamped_vector",
+          "msg_size": 1048576,
+          "freq_hz": 50
+        }
+      ]
+    },
+    {
+      "node_name": "subscriber_node_1",
+      "subscribers": [
+        {
+          "topic_name": "large_data",
+          "msg_type": "stamped_vector"
+        }
+      ]
+    },
+    {
+      "node_name": "subscriber_node_2",
+      "subscribers": [
+        {
+          "topic_name": "large_data",
+          "msg_type": "stamped_vector"
+        }
+      ]
+    },
+    {
+      "node_name": "subscriber_node_3",
+      "subscribers": [
+        {
+          "topic_name": "large_data",
+          "msg_type": "stamped_vector"
+        }
+      ]
+    }
+  ]
+}

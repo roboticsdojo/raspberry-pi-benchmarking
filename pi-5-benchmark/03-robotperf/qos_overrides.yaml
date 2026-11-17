@@ -1,0 +1,20 @@
+# Used with: ros2 bag play ... --qos-profile-overrides-path qos_overrides.yaml
+# The r2b datasets are recorded RELIABLE; subscribers often default to BEST_EFFORT,
+# which would silently drop data.
+/camera/color/image_raw:
+  reliability: reliable
+  history: keep_last
+  depth: 10
+/camera/color/camera_info:
+  reliability: reliable
+  history: keep_last
+  depth: 10
+# TF (d1_xarm6 / r2b_robotarm)
+/tf:
+  reliability: reliable
+  history: keep_last
+  depth: 100
+/tf_static:
+  reliability: reliable
+  history: keep_last
+  depth: 1

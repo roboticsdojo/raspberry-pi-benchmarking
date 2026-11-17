@@ -1,0 +1,14 @@
+# Generated benchmark output (remove a line if you want to commit those results)
+**/results/
+05-slam/work/
+01-compute-memory/build/
+03-robotperf/assets/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.DS_Store

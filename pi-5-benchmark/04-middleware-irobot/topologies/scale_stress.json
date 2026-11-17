@@ -1,0 +1,61 @@
+{
+  "resources": [],
+  "nodes": [
+    {
+      "node_name": "master_publisher_node",
+      "publishers": [
+        {
+          "topic_name": "sensor_telemetry",
+          "msg_type": "stamped_vector",
+          "msg_size": 10240,
+          "freq_hz": 50
+        }
+      ]
+    },
+    {
+      "node_name": "sub_1",
+      "subscribers": [
+        {
+          "topic_name": "sensor_telemetry",
+          "msg_type": "stamped_vector"
+        }
+      ]
+    },
+    {
+      "node_name": "sub_2",
+      "subscribers": [
+        {
+          "topic_name": "sensor_telemetry",
+          "msg_type": "stamped_vector"
+        }
+      ]
+    },
+    {
+      "node_name": "sub_3",
+      "subscribers": [
+        {
+          "topic_name": "sensor_telemetry",
+          "msg_type": "stamped_vector"
+        }
+      ]
+    },
+    {
+      "node_name": "sub_4",
+      "subscribers": [
+        {
+          "topic_name": "sensor_telemetry",
+          "msg_type": "stamped_vector"
+        }
+      ]
+    },
+    {
+      "node_name": "sub_5",
+      "subscribers": [
+        {
+          "topic_name": "sensor_telemetry",
+          "msg_type": "stamped_vector"
+        }
+      ]
+    }
+  ]
+}
